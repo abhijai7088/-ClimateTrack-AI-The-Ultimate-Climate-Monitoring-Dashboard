@@ -1,0 +1,249 @@
+/* src/pages/HomePage.css */
+
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #b0e9e9;
+}
+
+.home-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro {
+  text-align: center;
+  background-color: #e8f5e9;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h1 {
+  color: #4CAF50;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.features {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.features h2 {
+  color: #4CAF50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.features button {
+  background-color: #1c0e76;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.features button:hover {
+  background-color: #1c2380;
+}
+
+/* Progress Tracker */
+.progress-tracker {
+  margin-top: 30px;
+}
+
+.progress-tracker h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #4CAF50;
+  transition: width 0.5s ease;
+}
+
+.progress-tracker p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Recommendations */
+.recommendations {
+  margin-top: 30px;
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+.recommendations ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.recommendations li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Quiz Widget */
+.quiz-widget {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-widget h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+.quiz-widget p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.quiz-widget button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.quiz-widget button:hover {
+  background-color: #45a049;
+}
+
+/* Carbon Offset Calculator */
+.carbon-offset-calculator {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carbon-offset-calculator h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+.carbon-offset-calculator p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.carbon-offset-calculator button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.carbon-offset-calculator button:hover {
+  background-color: #45a049;
+}
+
+/* Learn More Section */
+.learn-more {
+  margin-top: 40px;
+  text-align: left;
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.learn-more h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #0288d1;
+}
+
+.learn-more ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.learn-more li {
+  margin-bottom: 10px;
+}
+
+.learn-more li a {
+  color: #0288d1;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.learn-more li a:hover {
+  text-decoration: underline;
+  color: #01579b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .intro h1 {
+      font-size: 2rem;
+  }
+
+  .features h2 {
+      font-size: 1.5rem;
+  }
+
+  .progress-tracker h3,
+  .recommendations h3,
+  .quiz-widget h3,
+  .carbon-offset-calculator h3,
+  .learn-more h2 {
+      font-size: 1.3rem;
+  }
+}

@@ -5,6 +5,12 @@
   align-items: center;
   background-color: #2a2a72; /* Navy Blue */
   padding: 1rem 2rem;
+<<<<<<< HEAD
+=======
+
+  max-width: 1600px;
+  margin: 0 auto
+>>>>>>> 935354b ( ALL files are uploaded)
 }
 
 .navbar-logo h1 {
